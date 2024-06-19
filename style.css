@@ -53,19 +53,25 @@ header a{
     text-align: center;
     padding-bottom: 30px;
     margin-top: 10px;
+    
 }
 
 .showcaseText h1{
     padding-bottom: 10px;
 }
 .showcaseText p{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
-.showcaseText button{
+.showcaseText a{
     background-color: black;
     color: white;
-    padding: 10px;
-    
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;   
+}
+
+.showcaseText a:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
    
 .first-set-cards{
