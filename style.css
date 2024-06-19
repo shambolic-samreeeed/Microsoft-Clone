@@ -132,7 +132,7 @@ header a{
 
 .xbox-card-contents{
     height: 350px;
-    width: 40%;
+    width: 50%;
     padding: 40px 0 0 20px;
 }
 
@@ -180,9 +180,11 @@ header a{
     text-decoration: none;
     color: #007FD1;
     font-weight: 500;
+    
 }
 .second-set-cards a:hover i{
     margin-left: 20px;
+    
 }
 .card5, .card6, .card7, .card8{
     /* border: 1px solid black; */
