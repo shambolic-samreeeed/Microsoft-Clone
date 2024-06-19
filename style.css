@@ -22,6 +22,7 @@ header{
     width: 74.5%;
     height: 50px;
     margin: auto;
+    flex-wrap: wrap;
 }
 header a{
     font-size: 14px;
@@ -103,10 +104,13 @@ header a{
     padding-top: 20px;
     text-decoration: none;
     color:#007FD1;
+    font-weight: 500;
     /* border: 1px solid black ; */
-    
-   
+}   
+.first-set-cards a:hover i{
+    margin-left: 20px;
 }
+   
 .card1, .card2, .card3, .card4  {
     height: 300px;
     width: 268px;
@@ -175,6 +179,10 @@ header a{
 .second-set-cards a{
     text-decoration: none;
     color: #007FD1;
+    font-weight: 500;
+}
+.second-set-cards a:hover i{
+    margin-left: 20px;
 }
 .card5, .card6, .card7, .card8{
     /* border: 1px solid black; */
